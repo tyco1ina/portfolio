@@ -8,3 +8,6 @@ Technologies used:
 - CSS
 - React.js
 - Amazon S3 for hosting
+
+Check out the website here:
+http://tiberiuscolina.s3-website-us-east-1.amazonaws.com/
