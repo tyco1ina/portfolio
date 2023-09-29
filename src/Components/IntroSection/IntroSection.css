@@ -1,0 +1,63 @@
+h1 {
+    font-family: "Roboto Mono"
+}
+
+h4 {
+    font-family: "Montserrat";
+}
+
+#intro-div {
+    position: relative;
+    margin: 0 auto;
+
+    /* background-color: red; */
+}
+
+.intro-inner-div {
+    position:relative;
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+
+    min-width: 300px;
+    max-width: 500px;
+
+}
+
+#role-h4 {
+    position:relative;
+    top:-20px;
+}
+
+#intro-inner-div-left {
+    position:relative;
+    top:0px;
+    text-align: left;
+}
+
+#intro-inner-div-right {
+    text-align: right;
+}
+
+#profile-picture-div {
+    position:relative;
+    margin: 0 auto;
+    top:15px;
+    
+    height: 200px;
+    width: 200px;
+
+    background-image: url("../../ProjectPhotos/profile.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    border-radius: 500px;
+    box-shadow:10px 10px 5px -6px rgba(0,0,0,0.75);
+}
+
+@media only screen and (max-width:480px) {
+    #intro-inner-div-left {
+        text-align: center;
+    }
+}

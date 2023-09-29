@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Mono:wght@500&display=swap');
+
+* {
+  color: white;
+}
+
+.App {
+  text-align: center;
+  width: 100%;
+
+}
+
+.spacer {
+  position: relative;
+  height: 30px;
+}
+
+#header {
+  position:relative;
+
+  height:100px;
+}
+
+#decorative-header {
+  position:relative;
+
+}
+
+#long-green-line {
+  position:relative;
+  margin-left:50px;
+  margin-right:50px;
+
+  height: 40px;
+  width: 200px;
+
+  background-color: rgb(39, 145, 75);
+  border-radius: 200px;
+}
+
+#green-dot {
+  position:relative;
+  display: block;
+  top:-40px;
+  left:250px;
+  margin-left:50px;
+  margin-right:50px;
+
+  height: 40px;
+  width: 40px;
+
+  background-color: rgb(39, 145, 75);
+  border-radius: 200px;
+}
+
+#experience-div {
+  position:relative;
+}
+
+.project-selector-button {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  margin:20px;
+
+  width: 200px;
+  height: 60px;
+
+  transition: background-color .2s;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.project-selector-button:hover {
+  background-color: white;
+  color: black;
+}
+
+.project-selector-button h3 {
+  position: relative;
+
+  font-family: "Montserrat";
+}
+
+.experience-example-div {
+  position: relative;
+  margin: 0 auto;
+}
+
+.experience-example-div-inner {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  margin: 10px;
+
+  min-width: 500px;
+  max-width: 500px;
+}
+
+#experience-example-div-inner-lower {
+  text-align: left;
+}
+
+.role-descriptor-h4 {
+  position: relative;
+  top: -20px;
+}
+
+.project-photo-div {
+  position:relative;
+  margin: 0 auto;
+  width: 350px;
+  height: 250px;
+
+  transition: width .3s, height .3s;
+  cursor: pointer;
+}
+
+.project-photo-div:hover {
+  width:364px;
+  height:260px;
+}
+
+#project-photo-div-plants {
+  background-image: url("./ProjectPhotos/plants.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#project-photo-div-dbnostix {
+  background-image: url("./ProjectPhotos/pipelineviz.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+#project-photo-div-rpc {
+  background-image: url("./ProjectPhotos/rpcphoto.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#project-photo-div-pfw {
+  background-image: url("./ProjectPhotos/pfw.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#project-photo-div-taw {
+  background-image: url("./ProjectPhotos/tawphoto.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#project-photo-div-worlds {
+  background-image: url("./ProjectPhotos/worlds.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#project-photo-div-iss {
+  background-image: url("./ProjectPhotos/isspinpointer.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#project-photo-div-cdc {
+  background-image: url("./ProjectPhotos/cdc.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#project-photo-div-roboticslink {
+  background-image: url("./ProjectPhotos/roboticslink.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#project-photo-div-gpa {
+  background-image: url("./ProjectPhotos/gpa.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.experience-example-div li {
+  font-family: "Montserrat";
+}
+
+@media only screen and (max-width:480px) {
+
+  #experience-header-h1 {
+    font-size: 23px;
+  }
+
+  .experience-example-div-inner {
+  
+    min-width: 300px;
+    max-width: 500px;
+  }
+
+  #experience-example-div-inner-lower {
+    text-align: center;
+  }
+}
